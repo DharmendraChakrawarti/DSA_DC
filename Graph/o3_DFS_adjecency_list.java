@@ -9,7 +9,7 @@ class o3_DFS_adjecency_list  {
     static void addEdge(ArrayList<ArrayList<Integer> > adj,
                         int u, int v)
     {
-        adj.get(u).add(v);
+        adj.get(u).add(v); //rr
         adj.get(v).add(u);
     }
  
