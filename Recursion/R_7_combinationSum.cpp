@@ -17,6 +17,7 @@ void combnation(vector<int> arr,vector<vector<int> > &ans,vector<int> &ds,int in
 }
 int main(){
    // https://leetcode.com/problems/combination-sum/
+  // https://leetcode.com/problems/find-array-given-subset-sums/
     vector<int> arr={2,3,6,7};
     int a=7;       
     vector<vector<int> >ans ;

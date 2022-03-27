@@ -17,6 +17,7 @@ void printF(vector<int> &vec,int arr[],int n,int index){
         printF(vec,arr,n,index+1); 
 }
 int main(){
+   // https://leetcode.com/problems/subsets/
     int arr[]={2,4,5};
     vector<int> vec;
     printF(vec,arr,3,0);
