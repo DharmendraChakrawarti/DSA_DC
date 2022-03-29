@@ -1,22 +1,8 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-class Solution {
-public:
-    int search(vector<int>& nums, int target) {
-        return b(nums,target,0,nums.size()-1);
-    }
-    int b(vector<int>& nums, int target,int low,int high){
-        int mid=(low +high)/2;
-        if(nums[target]==nums[mid])return mid;
-     else if(nums[target]>nums[mid]){
-            b( nums, target,mid+1, high);
-        }
-        else
-            b( nums, target, low, mid-1);
-        return -1;
-    }
-};
+
+
 void printF(vector<int> &vec,int arr[],int n,int index,int sum,int a){
     if(index==n){
         if(a==sum){
