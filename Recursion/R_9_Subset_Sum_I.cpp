@@ -23,6 +23,9 @@ using namespace std;
         return sumSubset;
     }
 int main(){
+
+     //https://practice.geeksforgeeks.org/problems/subset-sums2234/1
+
     vector<int> arr={3,1,2};
     vector<int>ans2  =subsetSums(arr,arr.size());    
     for(auto i:ans2){
