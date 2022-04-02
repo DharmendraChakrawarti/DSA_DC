@@ -15,7 +15,7 @@ bool issaf(int row, int col, vector<vector<char>> &ans, char c)
     }
     return true;
 }
-bool solve(vector<vector<char>>& ans)
+bool solve(vector<vector<char>> &ans)
 {
     for (int i = 0; i < ans.size(); i++)
     {
@@ -50,13 +50,13 @@ void sudoku(vector<vector<char>> &ans)
 int main()
 {
     // https://leetcode.com/problems/sudoku-solver/
-    vector<vector<char>> ans(9, vector<char>(9,'.'));
+    vector<vector<char>> ans(9, vector<char>(9, '.'));
     sudoku(ans);
     for (auto i : ans)
     {
         for (auto j : i)
         {
-            cout << j<<" ";
+            cout << j << " ";
         }
         cout << endl;
     }
