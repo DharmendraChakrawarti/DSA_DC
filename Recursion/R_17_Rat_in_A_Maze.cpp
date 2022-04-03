@@ -42,6 +42,8 @@ using namespace std;
         return ans; 
     }
 int main(){
+
+    //https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
     vector<vector<int>> ans={{1, 0, 0, 0},
          {1, 1, 0, 1}, 
          {1, 1, 0, 0},
